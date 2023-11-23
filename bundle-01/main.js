@@ -11,10 +11,16 @@
 
 
 // ESERCIZIO 1
-for (let i = 0; i > 5; i++) {
+// for (let i = 0; i > 5; i++) {
+//     console.log(i);
+// }
+
+//1)crea un iclo fin quando il valore [i] non sia maggiore di 5
+//2)no
+//3)si perche cosi si entra in un loop infinito.
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
-
 
 // ESERCIZIO 2
 function addIfEven(num) {
