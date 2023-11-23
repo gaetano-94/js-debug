@@ -25,14 +25,20 @@ for (let i = 0; i < 5; i++) {
 
 
 // ESERCIZIO 2
+/*function addIfEven(num) {
+    if (num % 2 = 0) {
+        return num + 5;
+    }
+    return num;
+}*/
+//1)E una funzione con un variabile, che al suo interno si svolge una condizione, del tipo (nun) diviso per 2 mi da come risultato 0 e quindi true. Allora a (nun) vado ad aggiungere il numero 5, e come ritorno finale mia dia la somma di nun + 5.
+//2)Si, e sono il(=) invece del (===), che e un modo per fare si che la nostra condizione si attivi, solamente nell'instante che la divisione del nostro (nun) dia come risultato 0
 function addIfEven(num) {
     if (num % 2 === 0) {
         return num + 5;
     }
     return num;
 }
-//1)E una funzione con un variabile, che al suo interno si svolge una condizione, del tipo (nun) diviso per 2 mi da come risultato 0 e quindi true. Allora a (nun) vado ad aggiungere il numero 5, e come ritorno finale mia dia la somma di nun + 5.
-//2)Si, e sono il(=) invece del (===), che e un modo per fare si che la nostra condizione si attivi, solamente nell'instante che la divisione del nostro (nun) dia come risultato 0
 //3)Si, perché il nostro (nun) da dove lo prendiamo? quindi ci sara un array. E un altra cosa avremo bisogno di un ciclo, che vada a scorrere l'indice del nostro per far si che la nostra condizione venga innescata
 
 
