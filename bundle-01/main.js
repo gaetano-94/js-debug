@@ -70,3 +70,4 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+//1)E una funzione anonima con al suo interno due array e un ciclo. Il primo array (numbers) genera una lista di numeri, il secondo array (evenNumbers)essendo vuoto dovrà essere riempito con dei numeri, e questo succedera grazie al ciclo for e alla sua condizione. Nel senso che tutti i numeri del primo array(numbers), che possono essere divisi per due e dare come risultato 0, verranno pushati(inseriti) nel array vuoto(evenNumbers).E poi grazie a (return) dacci il risulato dei numeri del nuovo array(evenNumbers)
