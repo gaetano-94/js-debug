@@ -43,11 +43,19 @@ function addIfEven(num) {
 
 
 // ESERCIZIO 3
-function loopToFive() {
+/*function loopToFive() {
     for (let i = 0, i < 5, i++) {
         console.log(i);
     }
+}*/
+//1)E una funzione anomina che al suo interno ha il ciclo for, il cui fa partire un ciclo sul nostro [i] e finira nel momento che il nostro indice non sia piu minore del 5 "il nostro punto di arrivo".E quindi ci stampa il console l'indice dei numeri che sono minori del 5
+//2)Si, che al posto della virgola(,) vicino allo 0 e al 5 vadino il punto e virgola(;)
+function loopToFive() {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }
 }
+//3)No, nel senso che poi questa funzione la possiamo utilizzare anche il altri casi
 
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
