@@ -15,20 +15,25 @@
 //     console.log(i);
 // }
 
-//1)crea un iclo fin quando il valore [i] non sia maggiore di 5
-//2)no
-//3)si perche cosi si entra in un loop infinito.
+//1)Crea un iclo fin quando il valore [i] non sia maggiore di 5
+//2)No
+//3)Si perche cosi si entra in un loop infinito.
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+//invece in questo caso il ciclo finira nel momento che [i] non sara piu minore del 5, oppure al posto del <, se inseriamo <=, il ciclo finira nel momento che il nostro indice sia uguale al 5 
+
 
 // ESERCIZIO 2
 function addIfEven(num) {
-    if (num % 2 = 0) {
+    if (num % 2 === 0) {
         return num + 5;
     }
     return num;
 }
+//1)E una funzione con un variabile, che al suo interno si svolge una condizione, del tipo (nun) diviso per 2 mi da come risultato 0 e quindi true. Allora a (nun) vado ad aggiungere il numero 5, e come ritorno finale mia dia la somma di nun + 5.
+//2)Si, e sono il(=) invece del (===), che e un modo per fare si che la nostra condizione si attivi, solamente nell'instante che la divisione del nostro (nun) dia come risultato 0
+//3)No
 
 
 // ESERCIZIO 3
